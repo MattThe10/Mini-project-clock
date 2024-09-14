@@ -14,6 +14,7 @@ body {
 
 #clock-div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 15% auto 0;
@@ -21,10 +22,17 @@ body {
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
+    gap: 1rem;
 }
 
 #clock-par {
     font-size: 5rem;
+    font-weight: bold;
+    color: #023e8a;
+}
+
+#clock-day {
+    font-size: 4rem;
     font-weight: bold;
     color: #023e8a;
 }
